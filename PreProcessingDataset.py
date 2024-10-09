@@ -32,7 +32,7 @@ def create_json_dataset(csv_path, image_root, output_json_path):
 
 # Example usage:
 csv_file_path = 'dataset.csv'
-image_root = '/vlm_dataset'  
+image_root = '/teamspace/studios/this_studio/LLaMA-Factory/data/vlm_dataset'  
 output_json_file = 'Dermatech_vlm.json'
 
 create_json_dataset(csv_file_path, image_root, output_json_file)
