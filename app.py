@@ -1,9 +1,18 @@
+import os
+import subprocess
 import streamlit as st
-
 from src.api import client
 from src.config import SYSTEM_MESSAGE, MODEL
 from src.ui_components import file_upload, header, patient_card, disclaimer_note
 from src.utils import prepare_content_with_images, all_images, all_videos
+
+# Function to run the server.py script as a separate program
+def start_server():
+    # Adjust the command based on your environment
+    os.system('python server.py &')
+
+# Start server.py when the app starts
+start_server()
 
 def main():
     # Title section
