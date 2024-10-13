@@ -2,7 +2,7 @@ import streamlit as st
 
 from src.api import client
 from src.config import SYSTEM_MESSAGE, MODEL
-from src.ui_components import file_upload, header, patient_card
+from src.ui_components import file_upload, header, patient_card, disclaimer_note
 from src.utils import prepare_content_with_images, all_images, all_videos
 
 def main():
@@ -16,6 +16,7 @@ def main():
 
     # Sidebar section for file upload
     uploaded_files, file_objects = file_upload()
+    disclaimer_note()
 
     # Initialize chat history
     if "messages" not in st.session_state:
