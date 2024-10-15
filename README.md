@@ -36,7 +36,7 @@ Follow these steps to get started:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/DermaTech.git
+   git clone https://github.com/ramanrewati/Dermatech
    ```
 
 2. **Install Dependencies:**
