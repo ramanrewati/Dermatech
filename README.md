@@ -58,6 +58,7 @@ Follow these steps to get started:
    ![App launched](readmeContent/app.png)
 ---
 ### 3. Try it using this [link.](https://8502-01ja0kbxt4nk9yyw8x6j5hemea.cloudspaces.litng.ai/)
+(deprecated)
 
 **After clicking on the link please wait for 5 minutes before prompting anything to let our serverless backend start and load the model.**
 
